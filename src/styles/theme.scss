@@ -1,0 +1,22 @@
+.App {
+    // theme
+    --bg-main: hsl(0, 0%, 100%);
+    --text-light: hsl(0, 0%, 100%);
+
+    // fonts
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    height: 100%;
+}
+
+.App.dark {
+    // basic colors
+    --bg-main: hsl(267, 27%, 14.5%);
+    --text-light: hsl(0, 0%, 90%);
+    --border: hsl(232.6, 33%, 43.3%);
+    --button-border: hsl(348.1, 85.2%, 62.9%);
+    --equals: hsl(358.1, 86.1%, 57.6%);
+    --clear: hsl(348.1, 85.2%, 62.9%);
+    --active: hsl(250,20.5%,17.3%);
+    height: 100%;
+}
